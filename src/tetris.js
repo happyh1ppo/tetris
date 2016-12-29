@@ -9,7 +9,8 @@ class Tetris {
 
   constructor() {
     this.DOMroot = document.createElement('div');
-    document.querySelector('body').appendChild(this.DOMroot);
+    //document.querySelector('body').appendChild(this.DOMroot);
+    document.getElementById('app').appendChild(this.DOMroot);
 
     // TODO наполнить DOMroot блоками используя класс Row и Cell
     //  однако, возможно, бизнес логику наполнение самой ячейки (Row)
